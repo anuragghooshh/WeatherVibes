@@ -1,6 +1,6 @@
 import React from "react";
 import "./WeatherCard.css";
-import iconsMap from "../utils/iconsMap";
+import iconsMap from "../../utils/iconsMap";
 
 const WeatherCard = ({ date, weather_desc, icon, temp }) => {
   return (
